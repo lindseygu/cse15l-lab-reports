@@ -17,15 +17,18 @@ I typed `yes` to the authenticity message and enter the new password asked, and 
 I tried the commands listed in the instruction to see what is returning from he server. A list of commands I tried are: 
 
 ```
-- cd
-- cd ~
-- ls -a
-- ls -lat
-- cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/
-- cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-- pwd
-- exit
+cd
+cd ~
+ls -a
+ls -lat
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+ls/home/linux/ieng6/cs15lwi23/cs15lwi23aet
+pwd
+exit
 ```
-
-
+        
+At first the `cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/` command shows `Permission denied`. Later the TA updated and fixed the issue and then it shows the message `Hello! Welcome to CSE 15L` after I typed in `cat/home/linux/ieng6/cs15lwi23/public/hello.txt`.        
+        
+Here's a screenshot of all the commands I tried and the results returned from terminal:    
 <img width="891" alt="Screen Shot 2023-01-12 at 9 19 07 AM" src="https://user-images.githubusercontent.com/122554943/212215576-ed41dc99-ac84-4db1-bea2-3a507e35b8eb.png">
