@@ -1,7 +1,7 @@
 # Lindsey Gu's Lab Report Week1
 ## Installing VScode
-Since I already have VScode installed on my computer, I just opened it to begin working on the Lab tasks:
-
+Since I already have VScode installed on my computer, I just opened it to begin working on the Lab tasks. Here's a screenshot of what it looks like when I open the VScode:
+      
 <img width="666" alt="Screen Shot 2023-01-12 at 9 40 03 AM" src="https://user-images.githubusercontent.com/122554943/212140144-3b5a67a6-a90f-4342-9a11-136cf184789a.png">
 
 ## Remotely Connecting
