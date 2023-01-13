@@ -17,14 +17,14 @@ I typed `yes` to the authenticity message and enter the new password asked, and 
 I tried the commands listed in the instruction to see what is returning from he server. A list of commands I tried are: 
 
 ```
-* cd
-* cd ~
-* ls -a
-* ls -lat
-* cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/
-* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-* pwd
-* exit
+- cd
+- cd ~
+- ls -a
+- ls -lat
+- cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/
+- cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+- pwd
+- exit
 ```
 
 
