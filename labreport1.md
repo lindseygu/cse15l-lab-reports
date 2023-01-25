@@ -32,11 +32,11 @@ cd: refers to "change directory", it's used to switch from the current working d
 cd ~: it changes directory to the home directory of the user, in this case, /home/linux/ieng6/cs15lwi23/cs15lwi23aei
 ls -a: it list all files including the hidden ones (dotfiles)
 ls -lat: it sorts files based on the recent modified time
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/: 
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-ls/home/linux/ieng6/cs15lwi23/cs15lwi23aet
-pwd
-exit
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/: to copy the hello.txt file from current directory to the public
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt: to print the content in hello.txt file
+ls/home/linux/ieng6/cs15lwi23/cs15lwi23aet: to list the files from the directory of another user, in this case, user cs15lwi23aet
+pwd: shows the full path of the current working directory
+exit: to exit the remote server; the access to cs15lwi23aei@ieng6.ucsd.edu will be closed
 ```
         
 At first the `cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/` command shows `Permission denied`. Later the TA updated and fixed the issue and then it shows the message `Hello! Welcome to CSE 15L` after I typed in `cat/home/linux/ieng6/cs15lwi23/public/hello.txt`.        
