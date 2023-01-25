@@ -3,6 +3,16 @@
 Since I already have VScode installed on my computer, I just opened it to begin working on the Lab tasks. Here's a screenshot of what it looks like when I open the VScode:
       
 <img width="666" alt="Screen Shot 2023-01-12 at 9 40 03 AM" src="https://user-images.githubusercontent.com/122554943/212140144-3b5a67a6-a90f-4342-9a11-136cf184789a.png">
+       
+But I will still include the process of installing VScode for future needs:   
+```
+1. download the correct version of VScode from the official website. I downloaded the MacOS version(see screenshot below)
+2. locate the downloaded file and open it by double clicking it
+3. drag the downloaded VScode app into the application folder and making it available in teh MacOS launchpad
+4. double clicking VScode from the application folder to open it
+
+```
+<img width="1074" alt="Screen Shot 2023-01-24 at 6 16 59 PM" src="https://user-images.githubusercontent.com/122554943/214466648-7c7bf400-b05b-4ce8-8774-80864889f876.png">
 
 ## Remotely Connecting
 I then followed the instructions to remotely connect to the server. I first signed in to my cse-specfic student account using last name and PID, I then changed the account password for this account. (later I found out that although I clicked not to change the global password of my AD account, it still changed it anyways).
