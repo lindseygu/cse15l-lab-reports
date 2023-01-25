@@ -33,7 +33,8 @@ ls -a: it list all files including the hidden ones (dotfiles)
 ls -lat: it sorts and prints a list of files based on the recent modified time
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/: to copy the hello.txt file from current directory to the public
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt: to print the content in hello.txt file
-ls/home/linux/ieng6/cs15lwi23/cs15lwi23aet: to list the files from the directory of another user, in this case, user cs15lwi23aet. After I tried this command, the output is access is denied because it's trying to access another user's files
+ls/home/linux/ieng6/cs15lwi23/cs15lwi23aet: to list the files from the directory of another user, in this case, 
+user cs15lwi23aet. After I tried, the output is access is denied because I'm trying to access another user's files
 pwd: shows the full path of the current working directory
 exit: to exit the remote server; the access to cs15lwi23aei@ieng6.ucsd.edu will be closed
 ```
