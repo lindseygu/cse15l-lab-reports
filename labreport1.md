@@ -29,10 +29,10 @@ I tried the commands listed in the instruction to see what is returning from he 
 
 ```
 cd: refers to "change directory", it's used to switch from the current working directory to the expected given path
-cd ~: it changes directory to the home directory of the user, in this case, 
-ls -a
-ls -lat
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/
+cd ~: it changes directory to the home directory of the user, in this case, /home/linux/ieng6/cs15lwi23/cs15lwi23aei
+ls -a: it list all files including the hidden ones (dotfiles)
+ls -lat: it sorts files based on the recent modified time
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/: 
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ls/home/linux/ieng6/cs15lwi23/cs15lwi23aet
 pwd
