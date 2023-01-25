@@ -10,6 +10,7 @@ But I will still include the process of installing VScode for future needs:
 2. locate the downloaded file and open it by double clicking it
 3. drag the downloaded VScode app into the application folder and making it available in teh MacOS launchpad
 4. double clicking VScode from the application folder to open it
+5. it will look like the above screenshot and it's ready to use
 
 ```
 <img width="1074" alt="Screen Shot 2023-01-24 at 6 16 59 PM" src="https://user-images.githubusercontent.com/122554943/214466648-7c7bf400-b05b-4ce8-8774-80864889f876.png">
@@ -27,8 +28,8 @@ I typed `yes` to the authenticity message and enter the new password asked, and 
 I tried the commands listed in the instruction to see what is returning from he server. A list of commands I tried are: 
 
 ```
-cd
-cd ~
+cd: refers to "change directory", it's used to switch from the current working directory to the expected given path
+cd ~: it changes directory to the home directory of the user, in this case, 
 ls -a
 ls -lat
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt~/
