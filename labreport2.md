@@ -67,8 +67,8 @@ static void reverseInPlace(int[] arr){
 ```         
 I changed the code this way because for the original method, the given code is trying to change the last index with index 0, but at that time, the index 0 is already changed to the last index number. One way to solve the bug is to store the index numbers before actually do the swap. So I created temp, left and right as int variables to store the values before swaping.         
         
-##Part 3       
-v
+## Part 3       
+Something I learned from lab week2 and week3 is the node class in the LinkedListExample. When I first saw the given code, I couldn't understand the the code is trying to do since I never saw something like that before. But later I asked my friends and searched online to learn more about the code in the LinkedListExample. Another thing I learned is how to write run the JUnit test. I've never written test cases before and It's interesting to learn how to write test cases myself and to check for the bugs in a program.       
          
 
 
