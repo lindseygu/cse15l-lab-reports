@@ -10,10 +10,31 @@ Here's the screenshot of the code(the structure is copied from the given code fr
 <img width="791" alt="Screen Shot 2023-01-28 at 6 20 18 PM" src="https://user-images.githubusercontent.com/122554943/215300882-902a3d34-5af2-4d8c-bd1c-626c98e3b1c7.png">       
          
 ## Part 2: Bugs from lab3          
-One of the bugs from lab is the ReverseInPlace method. The failure-inducing input is below:     
-<img width="672" alt="Screen Shot 2023-01-30 at 7 22 13 PM" src="https://user-images.githubusercontent.com/122554943/215654927-389e9046-8194-4ddd-b1d9-fa1dd2f0479a.png">
+One of the bugs from lab3 is the ReverseInPlace method, the original code is:         
+```
+static void reverseInPlace(int[] arr){
+    for(int i = 0; i < arr.length);
+        arr[i] = arr[arr.length - i - 1];
+```         
+The failure-inducing input(two written test cases) is below:     
+```
+@Test 
+public void testReverseInPlace1() {
+    int[] input1 = { 1, 2, 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
+	}
 
+@Test 
+public void testReverseInPlace2() {
+    int[] input1 = { 0, 2, 4, 6 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 6, 4, 2, 0 }, input1);
+	}
+```           
+And here are the results from the JUnit test:
 <img width="682" alt="Screen Shot 2023-01-30 at 7 23 38 PM" src="https://user-images.githubusercontent.com/122554943/215655095-914daa8b-dae4-4df7-ae7f-5a6be22425c5.png">
 
-<img width="683" alt="Screen Shot 2023-01-30 at 7 28 00 PM" src="https://user-images.githubusercontent.com/122554943/215655708-7dbc6d9a-0487-4495-b12c-7482af40484f.png">
-
+<img width="683" alt="Screen Shot 2023-01-30 at 7 28 00 PM" src="https://user-images.githubusercontent.com/122554943/215655708-7dbc6d9a-0487-4495-b12c-7482af40484f.png">      
+        
+An input that  doesn’t induce a failure
