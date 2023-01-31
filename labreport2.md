@@ -64,5 +64,11 @@ static void reverseInPlace(int[] arr){
         right--;
     }
 }
-```           
+```         
+I changed the code this way because for the original method, the given code is trying to change the last index with index 0, but at that time, the index 0 is already changed to the last index number. One way to solve the bug is to store the index numbers before actually do the swap. So I created temp, left and right as int variables to store the values before swaping.         
+        
+##Part 3       
+v
+         
+
 
