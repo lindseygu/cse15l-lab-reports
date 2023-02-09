@@ -32,7 +32,7 @@ And here are the results from the JUnit test:
 
 <img width="683" alt="Screen Shot 2023-01-30 at 7 28 00 PM" src="https://user-images.githubusercontent.com/122554943/215655708-7dbc6d9a-0487-4495-b12c-7482af40484f.png">      
         
-An input that  doesn’t induce a failure is:
+An input that  doesn’t induce a failure is(the original given test):
 ```
 @Test 
 	public void testReverseInPlace() {
@@ -41,6 +41,7 @@ An input that  doesn’t induce a failure is:
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
 ```           
+And the JUnit output without failures is:           
 <img width="788" alt="Screen Shot 2023-02-08 at 8 46 42 PM" src="https://user-images.githubusercontent.com/122554943/217720390-043b3de8-5679-4c3a-88c8-cfc70701147b.png">
           
 According to the output of running the tests, the symptom for the first test is at index 2, the expected value is 1 but the actual is 3. For the second test, at index 2, the expected value is 2 but the actual is 4.                    
