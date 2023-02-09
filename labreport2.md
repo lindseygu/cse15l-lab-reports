@@ -40,7 +40,9 @@ An input that  doesn’t induce a failure is:
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
-```        
+```           
+<img width="788" alt="Screen Shot 2023-02-08 at 8 46 42 PM" src="https://user-images.githubusercontent.com/122554943/217720390-043b3de8-5679-4c3a-88c8-cfc70701147b.png">
+          
 According to the output of running the tests, the symptom for the first test is at index 2, the expected value is 1 but the actual is 3. For the second test, at index 2, the expected value is 2 but the actual is 4.                    
 The buggy original method is below:         
 ```
