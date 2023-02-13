@@ -1,6 +1,6 @@
 ## Lab Report 3: Researching Commands
 I looked up for grep command line options at the website https://en.wikibooks.org/wiki/Grep
-### grep -o command
+### 1: grep -o command
 The first command I tried is:        
 ```
 grep -o "vista" written_2/travel_guides/berlitz1/*.txt 
@@ -37,7 +37,7 @@ written_2/travel_guides/berlitz2/Poland-History.txt:1807
 written_2/travel_guides/berlitz2/Portugal-History.txt:1807
 ```            
 According to the website, grep -o command will give output results of the matched parts of a matching line. In these two examples, the output is giving separate line results for each lines in the .txt files that contain the input string. This command might be useful when you want to know how many lines in the given directory does a specific word occurs, since it will give you every lines where the word occurs with its path.             
-### grep -l command
+### 2: grep -l command
 The first command I tried is:        
 ```
 grep -l "Lydia" written_2/non-fiction/OUP/Berk/*.txt
@@ -60,7 +60,7 @@ written_2/non-fiction/OUP/Fletcher/ch6.txt
 written_2/non-fiction/OUP/Fletcher/ch9.txt
 ```        
 According to the website, grep -l command gives the files only that matches the input string. In the first example, there's only one file that contains the string "Lydia", so only one line is printed as the output. In the second example, there are multiple files that contain the input string. This command is useful when you don't care how many times a string occurs in a particular file, you only want to know what files contain the input string one or multiple times.                
-### grep -c command
+### 3: grep -c command
 The first command I tried is:       
 ```
 grep -c "1807" written_2/travel_guides/berlitz2/*.txt
@@ -198,5 +198,17 @@ written_2/non-fiction/OUP/Rybczynski/ch1.txt:0
 written_2/non-fiction/OUP/Rybczynski/ch2.txt:0
 written_2/non-fiction/OUP/Rybczynski/ch3.txt:0
 ```        
-According to the website, grep -c command gives the count(number of matching words) for the files under the input path. For the first example, I use the same search word and input path as the second example in grep -o command, the output result shows five matching file paths that have one match(which are the output for the second grep -o command example). For 
+According to the website, grep -c command gives the count(number of matching words) for the files under the input path. For the first example, I use the same search word and input path as the second example in grep -o command, the output result shows five matching file paths that have one match(which are the output for the second grep -o command example). For the second example, I use the same search word and input path as the second example in grep -l command, which also shows the expected result. This command is useful when you want to check the occurance time of the search word in each individual files in the path pattern, instead of just the matched files.          
+### 4: grep -n command 
+The first command I tried is:      
+```
+grep -n "Lydia" written_2/non-fiction/OUP/Berk/*.txt
+```
+The output result is:      
+```
+written_2/non-fiction/OUP/Berk/ch1.txt:9:•Bob and Sharon, parents of a 4-year-old: Our daughter, Lydia, could recite her ABCs and count from 1 to 20 by age 2 1/2. When we looked for a preschool, many programs appeared to do little more than let children play, so we chose one with lots of emphasis on academics. To me, Lydia’s preschool seems like great preparation for kindergarten and ﬁrst grade, but each morning, Lydia hates to go. Why is Lydia, who’s always been an upbeat, curious child, so unhappy?
+written_2/non-fiction/OUP/Berk/ch1.txt:54:Recall 4-year-old Lydia’s dislike of her academic preschool, described at the beginning of this chapter. Lydia’s negative reaction is certainly consistent with research ﬁndings. The behaviorist presumption that development can be mechanically engineered by social input, guaranteeing brighter, socially more mature children, is not borne out by the evidence.
+```          
+The second command I tried is:       
+```
 
