@@ -211,4 +211,10 @@ written_2/non-fiction/OUP/Berk/ch1.txt:54:Recall 4-year-old Lydia’s dislike of
 ```          
 The second command I tried is:       
 ```
-
+grep -n "1807" written_2/travel_guides/berlitz2/Boston-WhereToGo.txt
+```       
+The output result is:      
+```
+17:In the 19th century so many leading intellectuals lived here that the city became known as “The Athens of the United States.” On Chestnut Street alone, there lived historian Francis Parkman, actor Edwin Booth, author Julia Ward Howe, and painter John Singer Sargent. Louisa May Alcott and Nathaniel Hawthorne resided on Pinckney Street, while Beacon Street which Oliver Wendell Holmes dubbed “the sunny street that holds the sifted few” boasted historian William Prescott. At number 10 Beacon, stop at the Boston Athenaeum (Tel. 227-0270; guided tours Tuesday and Thursday at 3pm; reservations needed), a haven for writers and intellectuals since it was established in 1807. The 750,000-volume collection is amazing, but so too is the interior of the 1849 building, which is exquisitely furnished with antiques, busts of Benjamin Franklin, Daniel Webster, and others, and several paintings by John Singer Sargent and Gilbert Stuart. Farther along Beacon at number 45, Harrison Gray Otis died in the house that Bulfinch designed for him. Don’t miss the London-style Louisburg Square surrounded by some of the finest Greek Revival homes in New England.
+```             
+According to the website
