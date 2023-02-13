@@ -59,7 +59,7 @@ written_2/non-fiction/OUP/Fletcher/ch5.txt
 written_2/non-fiction/OUP/Fletcher/ch6.txt
 written_2/non-fiction/OUP/Fletcher/ch9.txt
 ```        
-According to the website, grep -l command gives the files only that matches the input string. In the first example, there's only one file that contains the string "Lydia", so only one line is printed as the output. In the second example, there are multiple files that contain the input string. This command is useful when you don't care how many times a string occurs in a particular file, you only want to know what files contain the input string one or multiple times.           
+According to the website, grep -l command gives the files only that matches the input string. In the first example, there's only one file that contains the string "Lydia", so only one line is printed as the output. In the second example, there are multiple files that contain the input string. This command is useful when you don't care how many times a string occurs in a particular file, you only want to know what files contain the input string one or multiple times.                
 ### grep -c command
 The first command I tried is:       
 ```
@@ -198,5 +198,5 @@ written_2/non-fiction/OUP/Rybczynski/ch1.txt:0
 written_2/non-fiction/OUP/Rybczynski/ch2.txt:0
 written_2/non-fiction/OUP/Rybczynski/ch3.txt:0
 ```        
-According to the website, 
+According to the website, grep -c command gives the count(number of matching words) for the files under the input path. For the first example, I use the same search word and input path as the second example in grep -o command, the output result shows five matching file paths that have one match(which are the output for the second grep -o command example). For 
 
