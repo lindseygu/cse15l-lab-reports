@@ -1,5 +1,5 @@
 ## Lab Report 3: Researching Commands
-I looked up for grep command line options at the website [link](https://en.wikibooks.org/wiki/Grep)
+I looked up for grep command line options at the website: [https://en.wikibooks.org/wiki/Grep](https://en.wikibooks.org/wiki/Grep)
 ### 1: grep -o command
 The first command I tried is:        
 ```
