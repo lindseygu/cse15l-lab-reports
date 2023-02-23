@@ -36,7 +36,7 @@ written_2/travel_guides/berlitz2/Budapest-WhereoGo.txt:1807
 written_2/travel_guides/berlitz2/Poland-History.txt:1807
 written_2/travel_guides/berlitz2/Portugal-History.txt:1807
 ```            
-According to the website, grep -o command will give output results of the matched parts of a matching line. In these two examples, the output is giving separate line results for each lines in the .txt files that contain the input string. This command might be useful when you want to know how many lines in the given directory does a specific word occurs, since it will give you every lines where the word occurs with its path.             
+According to the website, `grep -o` command will give output results of the matched parts of a matching line. In these two examples, the output is giving separate line results for each lines in the .txt files that contain the input string. This command might be useful when you want to know how many lines in the given directory does a specific word occurs, since it will give you every lines where the word occurs with its path.             
 ### 2: grep -l command
 The first command I tried is:        
 ```
@@ -59,7 +59,7 @@ written_2/non-fiction/OUP/Fletcher/ch5.txt
 written_2/non-fiction/OUP/Fletcher/ch6.txt
 written_2/non-fiction/OUP/Fletcher/ch9.txt
 ```        
-According to the website, grep -l command gives the files only that matches the input string. In the first example, there's only one file that contains the string "Lydia", so only one line is printed as the output. In the second example, there are multiple files that contain the input string. This command is useful when you don't care how many times a string occurs in a particular file, you only want to know what files contain the input string one or multiple times.                
+According to the website, `grep -l` command gives the files only that matches the input string. In the first example, there's only one file that contains the string "Lydia", so only one line is printed as the output. In the second example, there are multiple files that contain the input string. This command is useful when you don't care how many times a string occurs in a particular file, you only want to know what files contain the input string one or multiple times.                
 ### 3: grep -c command
 The first command I tried is:       
 ```
@@ -198,7 +198,7 @@ written_2/non-fiction/OUP/Rybczynski/ch1.txt:0
 written_2/non-fiction/OUP/Rybczynski/ch2.txt:0
 written_2/non-fiction/OUP/Rybczynski/ch3.txt:0
 ```        
-According to the website, grep -c command gives the count(number of matching words) for the files under the input path. For the first example, I use the same search word and input path as the second example in grep -o command, the output result shows five matching file paths that have one match(which are the output for the second grep -o command example). For the second example, I use the same search word and input path as the second example in grep -l command, which also shows the expected result. This command is useful when you want to check the occurance time of the search word in each individual files in the path pattern, instead of just the matched files.          
+According to the website, `grep -c` command gives the count(number of matching words) for the files under the input path. For the first example, I use the same search word and input path as the second example in `grep -o` command, the output result shows five matching file paths that have one match(which are the output for the second `grep -o` command example). For the second example, I use the same search word and input path as the second example in `grep -l `command, which also shows the expected result. This command is useful when you want to check the occurance time of the search word in each individual files in the path pattern, instead of just the matched files.          
 ### 4: grep -n command 
 The first command I tried is:      
 ```
@@ -217,4 +217,4 @@ The output result is:
 ```
 17:In the 19th century so many leading intellectuals lived here that the city became known as “The Athens of the United States.” On Chestnut Street alone, there lived historian Francis Parkman, actor Edwin Booth, author Julia Ward Howe, and painter John Singer Sargent. Louisa May Alcott and Nathaniel Hawthorne resided on Pinckney Street, while Beacon Street which Oliver Wendell Holmes dubbed “the sunny street that holds the sifted few” boasted historian William Prescott. At number 10 Beacon, stop at the Boston Athenaeum (Tel. 227-0270; guided tours Tuesday and Thursday at 3pm; reservations needed), a haven for writers and intellectuals since it was established in 1807. The 750,000-volume collection is amazing, but so too is the interior of the 1849 building, which is exquisitely furnished with antiques, busts of Benjamin Franklin, Daniel Webster, and others, and several paintings by John Singer Sargent and Gilbert Stuart. Farther along Beacon at number 45, Harrison Gray Otis died in the house that Bulfinch designed for him. Don’t miss the London-style Louisburg Square surrounded by some of the finest Greek Revival homes in New England.
 ```             
-According to the website, grep -n command gives each matching output line with a line number. In my first example, the first matching result's line number is 9 and the second one is 54. In my second example, the line number is 17. This command is useful when you want to know the specific line number each time the matching string occurs in a file.
+According to the website, `grep -n` command gives each matching output line with a line number. In my first example, the first matching result's line number is 9 and the second one is 54. In my second example, the line number is 17. This command is useful when you want to know the specific line number each time the matching string occurs in a file.
