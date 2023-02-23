@@ -85,7 +85,7 @@ written_2/non-fiction/OUP/Fletcher/ch5.txt:7
 written_2/non-fiction/OUP/Fletcher/ch6.txt:28
 written_2/non-fiction/OUP/Fletcher/ch9.txt:15
 ```        
-According to the website, `grep -c` command gives the count(number of matching words) for the files under the input path. For the first example, I use the same search word and input path as the second example in `grep -o` command, the output result shows five matching file paths that have one match(which are the output for the second `grep -o` command example). For the second example, I use the same search word and input path as the second example in `grep -l `command, which also shows the expected result. This command is useful when you want to check the occurance time of the search word in each individual files in the path pattern, instead of just the matched files.          
+According to the website, `grep -c` command gives the count(number of matching words) for the files under the input path. For the first example, the output result shows five matching file paths that have one match. For the second example, shows each line the number of directories with matching words. This command is useful when you want to check the occurance time of the search word in each individual files in the path pattern, instead of just the matched files.          
 ### 4: grep -n command 
 The first command I tried is:      
 ```
