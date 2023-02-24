@@ -14,8 +14,13 @@ I copied the ssh cloning command from the repository I forked and use `git clone
 <img width="569" alt="Screen Shot 2023-02-23 at 1 42 09 PM" src="https://user-images.githubusercontent.com/122554943/221061982-35d2b9c5-393e-4687-b3ba-a18aafae7a65.png">
 
 ### Step 4: run the tests and demonstrate they fail
+To access the command for running the tests, I pressed `<up><up><up><up><up>`, then `<up><up><up><up><up><up>`, then `<tab>`. I first use the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command using the five up keys to search in my terminal history, then I use `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore L<tab>`using the five up keys and one tab key in the end for autofilling `TestListExamples`             
 <img width="967" alt="Screen Shot 2023-02-23 at 1 42 33 PM" src="https://user-images.githubusercontent.com/122554943/221070962-6df770fd-3a8b-4014-9995-67d6220466a1.png">
 
 ### Step 5: edit the code file to fix the test
+
 ### Step 6: run the tests and demonstrate they pass
+I repeated the same steps as Step 
+<img width="980" alt="Screen Shot 2023-02-23 at 1 41 23 PM" src="https://user-images.githubusercontent.com/122554943/221072430-98c65071-a344-4697-9222-1b75c661aa73.png">
+
 ### Step 7: commit and push the change to Github account
