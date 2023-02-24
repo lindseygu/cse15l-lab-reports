@@ -21,6 +21,7 @@ To access the command for running the tests, I pressed `<up><up><up><up><up>`, t
 I typed `nano L<tab>` to edit the file `ListExamples.java` the `<tab>` key autocompletes the file name for me. After I entered nano, I uses `<up> <down> <left>` and `<right>` arrow keys to access different lines in the files. I made the change of the second line from `index1` to `index2` to fix the error.
 
 <img width="422" alt="Screen Shot 2023-02-23 at 11 35 51 PM" src="https://user-images.githubusercontent.com/122554943/221119568-506f91b2-961c-4e23-a4c3-fde2fed34dd0.png">
+<img width="899" alt="Screen Shot 2023-02-24 at 12 01 44 PM" src="https://user-images.githubusercontent.com/122554943/221279342-0106e492-5b33-4090-8ab4-516914bbc814.png">
 
 ### Step 6: run the tests and demonstrate they pass
 I repeated the same steps as Step 4(but with one more `<up>`key pressed) to run the tests, and this time it passes.
