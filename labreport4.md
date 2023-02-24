@@ -28,7 +28,7 @@ After I edited the file, I repeated the same steps as Step 4(but with one `<up>`
 <img width="980" alt="Screen Shot 2023-02-23 at 1 41 23 PM" src="https://user-images.githubusercontent.com/122554943/221072430-98c65071-a344-4697-9222-1b75c661aa73.png">
 
 ### Step 7: commit and push the change to Github account
-I typed `git add L<tab>` to auto complete the ListExample.java and adding the change I just made. Then I typed `git push origin main` to push it to the repository I forked.          
+I typed `git add L<tab>` to auto complete the ListExample.java and adding the change I just made. Then I typed `git push origin main` to push it to the repository I forked to github.          
 <img width="429" alt="Screen Shot 2023-02-23 at 11 36 12 PM" src="https://user-images.githubusercontent.com/122554943/221119622-40d33aa8-6984-4582-9687-7d8e51b425f7.png">
 <img width="495" alt="Screen Shot 2023-02-23 at 1 41 46 PM" src="https://user-images.githubusercontent.com/122554943/221119677-d47f146d-cba4-47b8-a1d2-3bd71683efe7.png">
 
