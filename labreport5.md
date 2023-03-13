@@ -1,5 +1,5 @@
 ## Lab report 5: Researching a different command from lab report 3
-In lab report 3, I originally researched the `grep` command, so in this lab report I'm going to research the `find` command options.        
+In lab report 3, I originally researched the `grep` command, so in this lab report I'm going to research the `find` command options. The website I'm looking at is [https://man7.org/linux/man-pages/man1/find.1.html](https://man7.org/linux/man-pages/man1/find.1.html)        
 ### find -name command
 the first command I chose is:
 ```
