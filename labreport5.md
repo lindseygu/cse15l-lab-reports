@@ -23,7 +23,7 @@ written_2/travel_guides/berlitz1/HandRJamaica.txt
 ```
 According to the website, the `find -name` command searches a specific file under the specified directory and return its relative path. In my examples, the output is all of the matched files of the input name ending with.txt, with their paths provided. This command is useful when you don't remember the path for a certain file under a certain directory.
 
-### 2.find -mtime n command
+### 2. find -mtime n command
 the first command I typed is:      
 ```
 find written_2 -mtime -30 
@@ -49,7 +49,7 @@ written_2/travel_guides/berlitz1
 ```
 According to the website, the `find -mtime n` command returns files with data was last modified less than, more than or exactly n*24 hours ago. In the two examples I tried, I use the `-n` to indicate for less than the number of n. In the first example, the returned files are modified less than 30 days and the second example returns files modified less than 20 days ago. This command is useful when you want to know what are the files modified recently, given a certain number of days.
 
-### 3.find -depth command
+### 3. find -depth command
 the first command I typed is:
 ```
 find written_2/non-fiction/OUP/Abernathy -depth
